@@ -1,0 +1,31 @@
+PODS:
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - PubNub (4.3.3):
+    - CocoaLumberjack (= 2.3.0)
+    - PubNub/Core (= 4.3.3)
+  - PubNub/Core (4.3.3):
+    - CocoaLumberjack (= 2.3.0)
+
+DEPENDENCIES:
+  - JSQMessagesViewController
+  - PubNub (~> 4.0)
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  PubNub: 51acd937c947d931a75d2caef654fd12f7573e09
+
+PODFILE CHECKSUM: 744f0f67922acd38fae6ece07f0550c2fad9d50b
+
+COCOAPODS: 1.0.0
